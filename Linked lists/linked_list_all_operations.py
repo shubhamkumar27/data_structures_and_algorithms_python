@@ -42,6 +42,7 @@ class Linkedlist():
                     i+=1
                 node.next = cur.next
                 cur.next = node
+
     def delete_end(self):
         if(self.head==None):
             return

@@ -63,6 +63,7 @@ class Linkedlist():
             cur = cur.next
         return i
 
+########################################################################
     def reverse(self):
         if self.head == None or self.head.next == None:
             return
@@ -74,6 +75,8 @@ class Linkedlist():
             tail = head
             head = t
         self.head = tail
+
+#################################################################3
 
 lis = Linkedlist()
 lis.insert_head(1)
