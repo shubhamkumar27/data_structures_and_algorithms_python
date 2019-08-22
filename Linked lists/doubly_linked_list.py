@@ -7,22 +7,26 @@ class Node():
 class Linkedlist():
     def __init__(self):
         self.head = None
+        self.tail = None
 
     def insert_end(self,value):
         node = Node(value)
         if(self.head==None):
             self.head = node
+            self.tail = node
         else:
             cur = self.head
             while(cur.next):
                 cur = cur.next
             cur.next = node
+            self.tail = node
             node.prev = cur
 
     def insert_head(self,value):
         node = Node(value)
         if(self.head==None):
             self.head = node
+            self.tail = node
         else:
             node.next = self.head
             self.head.prev = node
@@ -37,6 +41,7 @@ class Linkedlist():
             node = Node(value)
             if(self.head==None):
                 self.head = node
+                self.tail = node
             else:
                 i=0
                 cur = self.head
@@ -52,10 +57,9 @@ class Linkedlist():
         if(self.head==None):
             return
         else:
-            cur = self.head
-            while(cur.next.next):
-                cur = cur.next
-            cur.next = None
+            cur = self.tail
+            cur.prev.next = None
+            self.tail = cur.prev
 
     def delete_head(self):
         if(self.head==None):
@@ -75,7 +79,10 @@ class Linkedlist():
             while(cur):
                 if(cur.data==value):
                     pre.next = cur.next
-                    cur.next.prev = pre
+                    if pre.next:
+                        cur.next.prev = pre
+                    else:
+                        self.tail = pre
                     cur.next = cur.prev = None
                     break
                 else:
@@ -101,6 +108,8 @@ class Linkedlist():
                 cur.next = cur.next.next
                 if(cur.next):
                     cur.next.prev = cur
+                else:
+                    self.tail = cur
 
     def traverse(self):
         if self.head == None:
@@ -111,6 +120,17 @@ class Linkedlist():
             print(cur.data,end=' ')
             cur = cur.next
         print()
+
+    def revtraverse(self):
+        if self.head == None:
+            return None
+        cur = self.tail
+        print('Elements are :', end=' ')
+        while(cur):
+            print(cur.data, end=' ')
+            cur = cur.prev
+        print()
+
 
     def length(self):
         if self.head == None:
@@ -136,23 +156,21 @@ lis.insert_pos(8,7)
 lis.insert_end(4)
 print('Length of list is : '+ str(lis.length()))
 lis.traverse()
+lis.revtraverse()
 lis.delete_end()
 print('Length of list is : '+ str(lis.length()))
 lis.traverse()
+lis.revtraverse()
 lis.delete_head()
 print('Length of list is : '+ str(lis.length()))
 lis.traverse()
+lis.revtraverse()
 lis.delete_val(2)
 print('Length of list is : '+ str(lis.length()))
 lis.traverse()
+lis.revtraverse()
 lis.delete_pos(8)
 print('Length of list is : '+ str(lis.length()))
 lis.traverse()
-d='Y'
-# while(True):
-#     d = input('Do you want to delete (Y/N) \n')
-#     if d=='Y' or d=='y':
-#         lis.delete_val(5)
-#         lis.traverse()
-#     else:
-#         break
+lis.revtraverse()
+
