@@ -28,23 +28,10 @@ class BST():
                 else:
                     root = root.right
 
-    def depth(self, root):
+    def depth(self,root):
         if root == None:
             return 0
-        return 1 + max(self.depth(root.left), self.depth(root.right))
-
-    def preorder(self,root = None):
-        if self.root == None:
-            return
-        if root == None:
-            root = self.root
-        while(root):
-            print(root.data)
-            if (root.left):
-                self.preorder(root.left)
-            if (root.right):
-                self.preorder(root.right)
-            break
+        return 1 + max(self.depth(root.left) , self.depth(root.right))
 
 tree = BST()
 tree.insert(7)
@@ -53,5 +40,4 @@ tree.insert(9)
 tree.insert(8)
 tree.insert(10)
 tree.insert(2)
-tree.preorder()
 print(tree.depth(tree.root))
