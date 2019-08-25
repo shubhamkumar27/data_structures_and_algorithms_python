@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06747f29-27d4-4577-b376-353611ed6645" name="Default" comment="" />
+    <list default="true" id="06747f29-27d4-4577-b376-353611ed6645" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Trees/Binary_serch_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Trees/Binary_serch_tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trees/tree_traversal.py" beforeDir="false" afterPath="$PROJECT_DIR$/Trees/tree_traversal.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +17,8 @@
       <file leaf-file-name="Binary_serch_tree.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Trees/Binary_serch_tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="56" column="28" lean-forward="true" selection-start-line="48" selection-end-line="56" selection-end-column="28" />
+            <state relative-caret-position="106">
+              <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -31,7 +34,11 @@
       </file>
       <file leaf-file-name="tree_traversal.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Trees/tree_traversal.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="63" column="22" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="Binary_trees.py" pinned="false" current-in-tab="false">
@@ -62,8 +69,8 @@
         <option value="$PROJECT_DIR$/Linked lists/linked_list_all_operations.py" />
         <option value="$PROJECT_DIR$/Linked lists/circular_linked_list.py" />
         <option value="$PROJECT_DIR$/Linked lists/floyd_cycle_detection.py" />
-        <option value="$PROJECT_DIR$/Trees/Binary_serch_tree.py" />
         <option value="$PROJECT_DIR$/Trees/depth_of_tree.py" />
+        <option value="$PROJECT_DIR$/Trees/Binary_serch_tree.py" />
         <option value="$PROJECT_DIR$/Trees/tree_traversal.py" />
       </list>
     </option>
@@ -119,7 +126,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.depth_of_tree">
+  <component name="RunManager" selected="Python.tree_traversal">
     <configuration name="Binary_serch_tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data_structures_and_algorithms_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -133,24 +140,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Trees/Binary_serch_tree.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="circular_linked_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="data_structures_and_algorithms_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Linked lists" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Linked lists/circular_linked_list.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -210,20 +199,38 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="tree_traversal" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="data_structures_and_algorithms_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Trees" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Trees/tree_traversal.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
-      <item itemvalue="Python.circular_linked_list" />
       <item itemvalue="Python.floyd_cycle_detection" />
       <item itemvalue="Python.doubly_linked_list" />
       <item itemvalue="Python.Binary_serch_tree" />
       <item itemvalue="Python.depth_of_tree" />
+      <item itemvalue="Python.tree_traversal" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tree_traversal" />
         <item itemvalue="Python.depth_of_tree" />
         <item itemvalue="Python.Binary_serch_tree" />
         <item itemvalue="Python.doubly_linked_list" />
         <item itemvalue="Python.floyd_cycle_detection" />
-        <item itemvalue="Python.circular_linked_list" />
       </list>
     </recent_temporary>
   </component>
@@ -244,12 +251,12 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24960254" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24960254" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3291592" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3291592" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -333,13 +340,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Trees/Binary_serch_tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="56" column="28" lean-forward="true" selection-start-line="48" selection-end-line="56" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Trees/depth_of_tree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -347,8 +347,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Trees/Binary_serch_tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Trees/tree_traversal.py">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="63" column="22" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

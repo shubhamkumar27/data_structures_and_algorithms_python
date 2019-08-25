@@ -28,11 +28,6 @@ class BST():
                 else:
                     root = root.right
 
-    def depth(self, root):
-        if root == None:
-            return 0
-        return 1 + max(self.depth(root.left), self.depth(root.right))
-
     def preorder(self,root = None):
         if self.root == None:
             return
