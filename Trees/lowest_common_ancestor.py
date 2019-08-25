@@ -22,18 +22,19 @@ class BST():
                 else:
                     root = root.left
             else:
-                if(root.right == None):
+                if root.right == None:
                     root.right = node
                     break
                 else:
                     root = root.right
 
     def lca(self, root, v1, v2):
-        if (root.data > v1 and root.data > v2):
+        if root.data > v1 and root.data > v2:
             root = self.lca(root.left, v1, v2)
-        if (root.data < v1 and root.data < v2):
+        if root.data < v1 and root.data < v2:
             root = self.lca(root.right, v1, v2)
         return root.data
+
 
 tree = BST()
 tree.insert(7)
