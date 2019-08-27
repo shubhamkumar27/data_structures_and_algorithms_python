@@ -54,4 +54,6 @@ lis.insert_end(4)
 
 lis.head.next.next.next.next.next.next = lis.head.next.next.next
 
+################ checking for cycle detection ##################
+
 lis.detect_cycle()
