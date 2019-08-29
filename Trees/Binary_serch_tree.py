@@ -28,25 +28,32 @@ class BST():
                 else:
                     root = root.right
 
-    def preorder(self,root = None):
-        if self.root == None:
-            return
+    # def preorder(self,root = None):
+    #     if self.root == None:
+    #         return
+    #     if root == None:
+    #         root = self.root
+    #     while(root):
+    #         print(root.data)
+    #         if (root.left):
+    #             self.preorder(root.left)
+    #         if (root.right):
+    #             self.preorder(root.right)
+    #         break
+    def inorder(self,root):
         if root == None:
-            root = self.root
+            return
         while(root):
+            self.inorder(root.left)
             print(root.data)
-            if (root.left):
-                self.preorder(root.left)
-            if (root.right):
-                self.preorder(root.right)
+            self.inorder(root.right)
             break
 
-tree = BST()
-tree.insert(7)
-tree.insert(4)
-tree.insert(9)
-tree.insert(8)
-tree.insert(10)
-tree.insert(2)
-tree.preorder()
-print(tree.depth(tree.root))
+# tree = BST()
+# tree.insert(7)
+# tree.insert(4)
+# tree.insert(9)
+# tree.insert(8)
+# tree.insert(10)
+# tree.insert(2)
+# tree.preorder()
