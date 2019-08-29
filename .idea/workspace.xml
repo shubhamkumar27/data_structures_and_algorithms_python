@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06747f29-27d4-4577-b376-353611ed6645" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Trees/Binary_serch_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Trees/Binary_serch_tree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trees/deletion_in_BST.py" beforeDir="false" afterPath="$PROJECT_DIR$/Trees/deletion_in_BST.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Binary_serch_tree.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Binary_serch_tree.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Trees/Binary_serch_tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="43" selection-start-line="43" selection-start-column="2" selection-end-line="50" selection-end-column="17" />
+            <state relative-caret-position="38">
+              <caret line="46" column="35" lean-forward="true" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -41,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deletion_in_BST.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="deletion_in_BST.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Trees/deletion_in_BST.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="34" column="14" lean-forward="true" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -73,8 +72,8 @@
         <option value="$PROJECT_DIR$/Trees/tree_traversal.py" />
         <option value="$PROJECT_DIR$/Trees/lowest_common_ancestor.py" />
         <option value="$PROJECT_DIR$/Trees/nth_level_nodes.py" />
-        <option value="$PROJECT_DIR$/Trees/deletion_in_BST.py" />
         <option value="$PROJECT_DIR$/Trees/Binary_serch_tree.py" />
+        <option value="$PROJECT_DIR$/Trees/deletion_in_BST.py" />
       </list>
     </option>
   </component>
@@ -441,13 +440,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Trees/deletion_in_BST.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="34" column="14" lean-forward="true" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Trees/tree_traversal.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="103">
@@ -457,8 +449,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Trees/Binary_serch_tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="43" selection-start-line="43" selection-start-column="2" selection-end-line="50" selection-end-column="17" />
+        <state relative-caret-position="38">
+          <caret line="46" column="35" lean-forward="true" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Trees/deletion_in_BST.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>

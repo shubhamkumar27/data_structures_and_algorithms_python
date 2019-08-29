@@ -1,5 +1,6 @@
 from Binary_serch_tree import BST
 
+####### function to delete ########
 
 def delete(root,value):
     if root == None:
