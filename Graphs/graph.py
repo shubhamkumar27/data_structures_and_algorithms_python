@@ -17,4 +17,22 @@ class Graph(object):
     def insert_node(self, value):
         new_node = Node(value)
         self.nodes.append(new_node)
-        
+
+    def insert_edge(self, new_edge_val, node_from_val, node_to_val):
+        from_found = None
+        to_found = None
+        for node in self.nodes:
+            if node_from_val == node.value:
+                from_found = node
+            if node_to_val == node.value:
+                to_found = node
+        if from_found == None:
+            from_found = Node(node_from_val)
+            self.nodes.append(from_found)
+        if to_found == None:
+            to_found = Node(node_to_val)
+            self.nodes.append(to_found)
+        new_edge = Edge(new_edge_val, from_found, to_found)
+        from_found.edges.append(new_edge)
+        to_found.edges.append(new_edge)
+        self.edges.append(new_edge)
