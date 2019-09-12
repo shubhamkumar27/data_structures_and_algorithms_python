@@ -17,6 +17,7 @@ class Graph(object):
     def insert_node(self, value):
         new_node = Node(value)
         self.nodes.append(new_node)
+<<<<<<< HEAD
 
     def insert_edge(self,value,node_from, node_to):
         from_node = to_node = None
@@ -37,4 +38,6 @@ class Graph(object):
         self.edges.append(edge)
 
     def adjacency_matrix(self):
+=======
+>>>>>>> 7097226cb649cd63e99e932d608515643d8579b2
         
