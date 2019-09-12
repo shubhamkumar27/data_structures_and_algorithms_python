@@ -17,3 +17,24 @@ class Graph(object):
     def insert_node(self, value):
         new_node = Node(value)
         self.nodes.append(new_node)
+
+    def insert_edge(self,value,node_from, node_to):
+        from_node = to_node = None
+        for n in self.nodes:
+            if node_from == n.value:
+                from_node = n
+            if node_to == n.value:
+                to_node = n
+        if from_node == None:
+            from_node = Node(node_from)
+            self.nodes.append(from_node)
+        if to_node == None:
+            to_node = Node(node_to)
+            self.nodes.append(to_node)
+        edge = Edge(value,from_node,to_node)
+        from_node.edges.append(edge)
+        to_node.edges.append(edge)
+        self.edges.append(edge)
+
+    def adjacency_matrix(self):
+        
