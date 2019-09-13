@@ -11,7 +11,9 @@ def bfs(graph, node):
     v = []
     q = [snode]
     while q:
+        ### Only this line changes ###
         n = q.pop(0)
+        ###############################
         if n not in v:
             v.append(n)
             print(n.value)
@@ -32,7 +34,9 @@ def dfs(graph, node):
     v = []
     q = [snode]
     while q:
+        ### Only this line changes ###
         n = q.pop()
+        ##############################
         if n not in v:
             v.append(n)
             print(n.value)
@@ -52,4 +56,6 @@ graph.insert_edge(103, 'A', 'C')
 graph.insert_edge(103, 'A', 'F')
 graph.insert_edge(103, 'C', 'F')
 graph.insert_edge(103, 'F', 'E')
-dfs(graph, 'D')
+bfs(graph, 'B')
+print('##########################')
+dfs(graph, 'B')
