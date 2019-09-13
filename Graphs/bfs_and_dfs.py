@@ -18,7 +18,9 @@ def bfs(graph, node):
             for nnode in n.edges:
                 if nnode.node_to not in v:
                     q.append(nnode.node_to)
-    return v
+                if nnode.node_from not in v:
+                    q.append(nnode.node_from)
+    return
 
 
 graph = Graph()
@@ -29,4 +31,4 @@ graph.insert_edge(103, 'A', 'C')
 graph.insert_edge(103, 'A', 'F')
 graph.insert_edge(103, 'C', 'F')
 graph.insert_edge(103, 'F', 'E')
-bfs(graph, 'B')
+bfs(graph, 'D')
