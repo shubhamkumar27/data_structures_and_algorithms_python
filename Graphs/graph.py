@@ -36,17 +36,29 @@ class Graph(object):
         to_node.edges.append(edge)
         self.edges.append(edge)
 
-    def adjacency_matrix(self):
-        pass
+    def adjacency_list(self):
+        for n in self.nodes:
+            print(n.value,end=' -> ')
+            for e in n.edges:
+                if e.node_from == n:
+                    print(e.node_to.value, end=' ')
+                ############ comment these next two lines for directional graph ##############
+                if e.node_to == n:
+                    print(e.node_from.value, end=' ')
+            print()
 
-# graph = Graph()
-# graph.insert_edge(100, 'B', 'A')
-# graph.insert_edge(101, 'B', 'D')
-# graph.insert_edge(102, 'B', 'E')
-# graph.insert_edge(103, 'A', 'C')
-# graph.insert_edge(103, 'A', 'F')
-# graph.insert_edge(103, 'C', 'F')
-# graph.insert_edge(103, 'F', 'E')
+graph = Graph()
+graph.insert_edge(100, 'B', 'A')
+graph.insert_edge(101, 'B', 'D')
+graph.insert_edge(102, 'B', 'E')
+graph.insert_edge(103, 'A', 'C')
+graph.insert_edge(103, 'A', 'F')
+graph.insert_edge(103, 'C', 'F')
+graph.insert_edge(103, 'F', 'E')
+# lis = enumerate(graph.nodes, 1)
+# for l in lis:
+# print(l[0],l[1].value)
+graph.adjacency_list()
 
 
 
