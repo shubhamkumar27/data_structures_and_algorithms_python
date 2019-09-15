@@ -48,17 +48,22 @@ class Graph(object):
             print()
 
 graph = Graph()
+mst = Graph()
 graph.insert_edge(100, 'B', 'A')
 graph.insert_edge(101, 'B', 'D')
 graph.insert_edge(102, 'B', 'E')
 graph.insert_edge(103, 'A', 'C')
-graph.insert_edge(103, 'A', 'F')
-graph.insert_edge(103, 'C', 'F')
-graph.insert_edge(103, 'F', 'E')
+graph.insert_edge(109, 'A', 'F')
+graph.insert_edge(105, 'C', 'F')
+graph.insert_edge(104, 'F', 'E')
+print(len(graph.nodes))
+print(len(mst.nodes))
 # lis = enumerate(graph.nodes, 1)
-# for l in lis:
-# print(l[0],l[1].value)
-graph.adjacency_list()
+# new = sorted(graph.edges, key= lambda x:x.value,reverse=False)
+# for i in new:
+#     print(i.value)
+#graph.adjacency_list()
+
 
 
 

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="06747f29-27d4-4577-b376-353611ed6645" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/Graphs/graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graphs/graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Trees/Binary_serch_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/Trees/Binary_serch_tree.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,10 +14,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Binary_serch_tree.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Trees/Binary_serch_tree.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="58" column="23" lean-forward="true" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="depth_of_tree.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Trees/depth_of_tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
+            <state relative-caret-position="293">
               <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
             </state>
           </provider>
@@ -31,20 +41,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="graph.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="graph.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Graphs/graph.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-64">
-              <caret line="42" column="36" lean-forward="true" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
+            <state relative-caret-position="204">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bfs_and_dfs.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Graphs/bfs_and_dfs.py">
+      <file leaf-file-name="kruskal_MST.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Graphs/kruskal_MST.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="59" column="18" lean-forward="true" selection-start-line="50" selection-end-line="59" selection-end-column="18" />
+            <state relative-caret-position="221">
+              <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -54,6 +64,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="174">
               <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bfs_and_dfs.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Graphs/bfs_and_dfs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-846">
+              <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -81,11 +100,12 @@
         <option value="$PROJECT_DIR$/Trees/tree_traversal.py" />
         <option value="$PROJECT_DIR$/Trees/lowest_common_ancestor.py" />
         <option value="$PROJECT_DIR$/Trees/nth_level_nodes.py" />
-        <option value="$PROJECT_DIR$/Trees/Binary_serch_tree.py" />
         <option value="$PROJECT_DIR$/Trees/deletion_in_BST.py" />
-        <option value="$PROJECT_DIR$/Graphs/bfs_and_dfs.py" />
         <option value="$PROJECT_DIR$/Graphs/topological_sort.py" />
+        <option value="$PROJECT_DIR$/Graphs/bfs_and_dfs.py" />
+        <option value="$PROJECT_DIR$/Graphs/kruskal_MST.py" />
         <option value="$PROJECT_DIR$/Graphs/graph.py" />
+        <option value="$PROJECT_DIR$/Trees/Binary_serch_tree.py" />
       </list>
     </option>
   </component>
@@ -145,7 +165,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.graph">
+  <component name="RunManager" selected="Python.Binary_serch_tree">
+    <configuration name="Binary_serch_tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="data_structures_and_algorithms_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Trees" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Trees/Binary_serch_tree.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="bfs_and_dfs" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data_structures_and_algorithms_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -159,24 +197,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graphs/bfs_and_dfs.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="deletion_in_BST" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="data_structures_and_algorithms_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Trees" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Trees/deletion_in_BST.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -200,7 +220,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="nth_level_nodes" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="kruskal_MST" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data_structures_and_algorithms_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -208,11 +228,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Trees" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graphs" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Trees/nth_level_nodes.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graphs/kruskal_MST.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -237,19 +257,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.nth_level_nodes" />
-      <item itemvalue="Python.deletion_in_BST" />
       <item itemvalue="Python.graph" />
       <item itemvalue="Python.bfs_and_dfs" />
       <item itemvalue="Python.topological_sort" />
+      <item itemvalue="Python.kruskal_MST" />
+      <item itemvalue="Python.Binary_serch_tree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Binary_serch_tree" />
         <item itemvalue="Python.graph" />
+        <item itemvalue="Python.kruskal_MST" />
         <item itemvalue="Python.topological_sort" />
         <item itemvalue="Python.bfs_and_dfs" />
-        <item itemvalue="Python.deletion_in_BST" />
-        <item itemvalue="Python.nth_level_nodes" />
       </list>
     </recent_temporary>
   </component>
@@ -611,7 +631,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Trees/depth_of_tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
+        <state relative-caret-position="293">
           <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
         </state>
       </provider>
@@ -623,24 +643,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Trees/Binary_serch_tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Trees/deletion_in_BST.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Graphs/bfs_and_dfs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="59" column="18" lean-forward="true" selection-start-line="50" selection-end-line="59" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -651,10 +657,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Graphs/bfs_and_dfs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-846">
+          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graphs/kruskal_MST.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Graphs/graph.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-64">
-          <caret line="42" column="36" lean-forward="true" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
+        <state relative-caret-position="204">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Trees/Binary_serch_tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="58" column="23" lean-forward="true" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
         </state>
       </provider>
     </entry>
