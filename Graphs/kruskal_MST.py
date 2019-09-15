@@ -10,19 +10,22 @@ def kruskal(graph):
     while(len(mst.edges)!=n):
         edge = new[i]
         ans = is_connected(mst,edge.node_from.value,edge.node_to.value)
-        print(ans)
+        #print(ans)
         if not ans:
             mst.insert_edge(edge.value,edge.node_from.value,edge.node_to.value)
         i=i+1
     return mst
 
 def is_connected(graph, n1,n2):
-    print(n1,n2)
+    #print(n1,n2)
     snode=None
     for nod in graph.nodes:
-        print(nod.value,n1)
-        if nod.value == n1 or nod.value == n2:
-
+        #print(nod.value,n1)
+        if nod.value == n1:
+            snode = nod
+            break
+        if nod.value == n2:
+            n1,n2=n2,n1
             snode = nod
             break
     if snode == None:
@@ -32,7 +35,7 @@ def is_connected(graph, n1,n2):
     while q:
         ### Only this line changes ###
         n = q.pop(0)
-        print(n.value,'here')
+        #print(n.value,'here')
         if n.value == n2:
             return True
         ###############################
