@@ -10,9 +10,9 @@ class Edge(object):
         self.node_to = node_to
 
 class Graph(object):
-    def __init__(self, nodes=[], edges=[]):
-        self.nodes = nodes
-        self.edges = edges
+    def __init__(self):
+        self.nodes = []
+        self.edges = []
 
     def insert_node(self, value):
         new_node = Node(value)
@@ -47,17 +47,14 @@ class Graph(object):
                     print(e.node_from.value, end=' ')
             print()
 
-graph = Graph()
-mst = Graph()
-graph.insert_edge(100, 'B', 'A')
-graph.insert_edge(101, 'B', 'D')
-graph.insert_edge(102, 'B', 'E')
-graph.insert_edge(103, 'A', 'C')
-graph.insert_edge(109, 'A', 'F')
-graph.insert_edge(105, 'C', 'F')
-graph.insert_edge(104, 'F', 'E')
-print(len(graph.nodes))
-print(len(mst.nodes))
+# graph = Graph()
+# graph.insert_edge(100, 'B', 'A')
+# graph.insert_edge(101, 'B', 'D')
+# graph.insert_edge(102, 'B', 'E')
+# graph.insert_edge(103, 'A', 'C')
+# graph.insert_edge(109, 'A', 'F')
+# graph.insert_edge(105, 'C', 'F')
+# graph.insert_edge(104, 'F', 'E')
 # lis = enumerate(graph.nodes, 1)
 # new = sorted(graph.edges, key= lambda x:x.value,reverse=False)
 # for i in new:
