@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06747f29-27d4-4577-b376-353611ed6645" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Graphs/kruskal_MST.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graphs/kruskal_MST.py" afterDir="false" />
-    </list>
+    <list default="true" id="06747f29-27d4-4577-b376-353611ed6645" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +15,7 @@
         <entry file="file://$PROJECT_DIR$/Trees/Binary_serch_tree.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="986">
-              <caret line="58" column="23" lean-forward="true" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
+              <caret line="58" column="23" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -25,7 +23,7 @@
       <file leaf-file-name="depth_of_tree.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Trees/depth_of_tree.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
+            <state relative-caret-position="527">
               <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
             </state>
           </provider>
@@ -43,17 +41,26 @@
       <file leaf-file-name="graph.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Graphs/graph.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
+            <state relative-caret-position="765">
               <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="46" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kruskal_MST.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="kruskal_MST.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Graphs/kruskal_MST.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="58" lean-forward="true" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+              <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="0-1_Knapsack_problem.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/0-1_Knapsack_problem.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-166">
+              <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -61,7 +68,7 @@
       <file leaf-file-name="topological_sort.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Graphs/topological_sort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
+            <state relative-caret-position="442">
               <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
             </state>
           </provider>
@@ -71,7 +78,7 @@
         <entry file="file://$PROJECT_DIR$/Graphs/bfs_and_dfs.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="38" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="9" selection-end-column="38" />
+              <caret line="9" column="38" selection-start-line="5" selection-start-column="4" selection-end-line="9" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -84,6 +91,15 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>w</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>jz</replace>
+      <replace>j</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -105,6 +121,7 @@
         <option value="$PROJECT_DIR$/Trees/Binary_serch_tree.py" />
         <option value="$PROJECT_DIR$/Graphs/graph.py" />
         <option value="$PROJECT_DIR$/Graphs/kruskal_MST.py" />
+        <option value="$PROJECT_DIR$/0-1_Knapsack_problem.py" />
       </list>
     </option>
   </component>
@@ -119,7 +136,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -127,25 +143,11 @@
               <item name="data_structures_and_algorithms_python" type="b2602c69:ProjectViewProjectNode" />
               <item name="data_structures_and_algorithms_python" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="data_structures_and_algorithms_python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_structures_and_algorithms_python" type="462c0819:PsiDirectoryNode" />
-              <item name="Graphs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data_structures_and_algorithms_python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_structures_and_algorithms_python" type="462c0819:PsiDirectoryNode" />
-              <item name="Linked lists" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="data_structures_and_algorithms_python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="data_structures_and_algorithms_python" type="462c0819:PsiDirectoryNode" />
-              <item name="Trees" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -164,7 +166,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.kruskal_MST">
+  <component name="RunManager" selected="Python.0-1_Knapsack_problem">
+    <configuration name="0-1_Knapsack_problem" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="data_structures_and_algorithms_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0-1_Knapsack_problem.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="Binary_serch_tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data_structures_and_algorithms_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -178,24 +198,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Trees/Binary_serch_tree.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="bfs_and_dfs" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="data_structures_and_algorithms_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Graphs" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graphs/bfs_and_dfs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -257,18 +259,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.graph" />
-      <item itemvalue="Python.bfs_and_dfs" />
       <item itemvalue="Python.topological_sort" />
       <item itemvalue="Python.kruskal_MST" />
       <item itemvalue="Python.Binary_serch_tree" />
+      <item itemvalue="Python.0-1_Knapsack_problem" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.0-1_Knapsack_problem" />
         <item itemvalue="Python.kruskal_MST" />
         <item itemvalue="Python.graph" />
         <item itemvalue="Python.Binary_serch_tree" />
         <item itemvalue="Python.topological_sort" />
-        <item itemvalue="Python.bfs_and_dfs" />
       </list>
     </recent_temporary>
   </component>
@@ -309,35 +311,28 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3291592" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24960254" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3291592" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Trees/Binary_serch_tree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Trees/depth_of_tree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -630,7 +625,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Trees/depth_of_tree.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
+        <state relative-caret-position="527">
           <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
         </state>
       </provider>
@@ -651,7 +646,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Graphs/topological_sort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
+        <state relative-caret-position="442">
           <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
         </state>
       </provider>
@@ -659,20 +654,20 @@
     <entry file="file://$PROJECT_DIR$/Trees/Binary_serch_tree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="986">
-          <caret line="58" column="23" lean-forward="true" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
+          <caret line="58" column="23" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Graphs/bfs_and_dfs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="38" lean-forward="true" selection-start-line="5" selection-start-column="4" selection-end-line="9" selection-end-column="38" />
+          <caret line="9" column="38" selection-start-line="5" selection-start-column="4" selection-end-line="9" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Graphs/graph.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
+        <state relative-caret-position="765">
           <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="46" selection-end-column="53" />
         </state>
       </provider>
@@ -680,7 +675,14 @@
     <entry file="file://$PROJECT_DIR$/Graphs/kruskal_MST.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="58" lean-forward="true" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+          <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0-1_Knapsack_problem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-166">
+          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
