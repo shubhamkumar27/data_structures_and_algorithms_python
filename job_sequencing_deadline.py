@@ -22,4 +22,11 @@ arr = [['a', 2, 100],
        ['d', 1, 25],
        ['e', 3, 15]]
 
-print(sequencing(arr))
+#print(sequencing(arr))
+ar = [1,2,2,3,3,4,4,5,5,6,6,7]
+res = ar[0]
+for i in range(1,len(ar)):
+    res = res ^ ar[i]
+    print(res)
+print(res)
+
