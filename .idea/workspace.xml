@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06747f29-27d4-4577-b376-353611ed6645" name="Default" comment="" />
+    <list default="true" id="06747f29-27d4-4577-b376-353611ed6645" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Graphs/kruskal_MST.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graphs/kruskal_MST.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,8 +43,8 @@
       <file leaf-file-name="kruskal_MST.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Graphs/kruskal_MST.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
+            <state relative-caret-position="136">
+              <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -65,7 +67,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="laregst_sum_contiguous_subarray.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="laregst_sum_contiguous_subarray.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laregst_sum_contiguous_subarray.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
@@ -83,7 +85,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bfs_and_dfs.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="bfs_and_dfs.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Graphs/bfs_and_dfs.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -129,10 +131,10 @@
         <option value="$PROJECT_DIR$/Graphs/bfs_and_dfs.py" />
         <option value="$PROJECT_DIR$/Trees/Binary_serch_tree.py" />
         <option value="$PROJECT_DIR$/Graphs/graph.py" />
-        <option value="$PROJECT_DIR$/Graphs/kruskal_MST.py" />
         <option value="$PROJECT_DIR$/0-1_Knapsack_problem.py" />
         <option value="$PROJECT_DIR$/job_sequencing_deadline.py" />
         <option value="$PROJECT_DIR$/laregst_sum_contiguous_subarray.py" />
+        <option value="$PROJECT_DIR$/Graphs/kruskal_MST.py" />
       </list>
     </option>
   </component>
@@ -153,6 +155,11 @@
             <path>
               <item name="data_structures_and_algorithms_python" type="b2602c69:ProjectViewProjectNode" />
               <item name="data_structures_and_algorithms_python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="data_structures_and_algorithms_python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="data_structures_and_algorithms_python" type="462c0819:PsiDirectoryNode" />
+              <item name="Graphs" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -302,12 +309,12 @@
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24960254" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24960254" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3291592" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3291592" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -655,13 +662,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Graphs/bfs_and_dfs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="38" selection-start-line="5" selection-start-column="4" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Graphs/graph.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="765">
@@ -676,13 +676,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Graphs/kruskal_MST.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="58" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/job_sequencing_deadline.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -694,6 +687,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graphs/kruskal_MST.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="35" column="25" lean-forward="true" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graphs/bfs_and_dfs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="38" selection-start-line="5" selection-start-column="4" selection-end-line="9" selection-end-column="38" />
         </state>
       </provider>
     </entry>

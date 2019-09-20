@@ -2,8 +2,6 @@ from graph import Graph
 
 def kruskal(graph):
     new = sorted(graph.edges, key=lambda x: x.value, reverse=False)
-    # for q in new:
-    #     print(q.value,q.node_from.value,q.node_to.value)
     mst = Graph()
     i=0
     n=len(graph.nodes)-1
@@ -33,7 +31,6 @@ def is_connected(graph, n1,n2):
     v = []
     q = [snode]
     while q:
-        ### Only this line changes ###
         n = q.pop(0)
         #print(n.value,'here')
         if n.value == n2:
