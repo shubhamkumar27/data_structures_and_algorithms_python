@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06747f29-27d4-4577-b376-353611ed6645" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graphs/bfs_and_dfs.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graphs/bfs_and_dfs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graphs/graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graphs/graph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graphs/topological_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graphs/topological_sort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/printing_matrix_in_spiral_form.py" beforeDir="false" afterPath="$PROJECT_DIR$/printing_matrix_in_spiral_form.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -91,8 +88,8 @@
       <file leaf-file-name="printing_matrix_in_spiral_form.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/printing_matrix_in_spiral_form.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+            <state relative-caret-position="-47">
+              <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -680,8 +677,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/printing_matrix_in_spiral_form.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        <state relative-caret-position="-47">
+          <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
         </state>
       </provider>
     </entry>
