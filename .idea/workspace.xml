@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06747f29-27d4-4577-b376-353611ed6645" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/printing_matrix_in_spiral_form.py" beforeDir="false" afterPath="$PROJECT_DIR$/printing_matrix_in_spiral_form.py" afterDir="false" />
-    </list>
+    <list default="true" id="06747f29-27d4-4577-b376-353611ed6645" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,11 +83,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="printing_matrix_in_spiral_form.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="printing_matrix_in_spiral_form.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/printing_matrix_in_spiral_form.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-47">
+            <state relative-caret-position="208">
               <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="finding_missing_number.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/finding_missing_number.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -137,6 +144,7 @@
         <option value="$PROJECT_DIR$/Graphs/topological_sort.py" />
         <option value="$PROJECT_DIR$/Graphs/cycle_detection_directed_graph.py" />
         <option value="$PROJECT_DIR$/printing_matrix_in_spiral_form.py" />
+        <option value="$PROJECT_DIR$/finding_missing_number.py" />
       </list>
     </option>
   </component>
@@ -181,7 +189,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.printing_matrix_in_spiral_form">
+  <component name="RunManager" selected="Python.finding_missing_number">
     <configuration name="bfs_and_dfs" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data_structures_and_algorithms_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -200,6 +208,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="finding_missing_number" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="data_structures_and_algorithms_python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/finding_missing_number.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="graph" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="data_structures_and_algorithms_python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -213,24 +239,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graphs/graph.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="laregst_sum_contiguous_subarray" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="data_structures_and_algorithms_python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/laregst_sum_contiguous_subarray.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -273,19 +281,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.laregst_sum_contiguous_subarray" />
       <item itemvalue="Python.bfs_and_dfs" />
       <item itemvalue="Python.graph" />
       <item itemvalue="Python.topological_sort" />
       <item itemvalue="Python.printing_matrix_in_spiral_form" />
+      <item itemvalue="Python.finding_missing_number" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.finding_missing_number" />
         <item itemvalue="Python.printing_matrix_in_spiral_form" />
         <item itemvalue="Python.topological_sort" />
         <item itemvalue="Python.graph" />
         <item itemvalue="Python.bfs_and_dfs" />
-        <item itemvalue="Python.laregst_sum_contiguous_subarray" />
       </list>
     </recent_temporary>
   </component>
@@ -329,13 +337,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Graphs/bfs_and_dfs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1003">
-          <caret line="59" column="35" lean-forward="true" selection-start-line="59" selection-start-column="35" selection-end-line="59" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Trees/Binary_serch_tree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
@@ -677,8 +678,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/printing_matrix_in_spiral_form.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-47">
+        <state relative-caret-position="208">
           <caret line="15" column="16" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/finding_missing_number.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
