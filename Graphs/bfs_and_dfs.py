@@ -39,12 +39,13 @@ def dfs(graph, node):
         ##############################
         if n not in v:
             v.append(n)
-            print(n.value)
+            #print(n.value)
             for nnode in n.edges:
                 if nnode.node_to not in v:
+                    print(nnode.node_to.value)
                     q.append(nnode.node_to)
-                if nnode.node_from not in v:
-                    q.append(nnode.node_from)
+                # if nnode.node_from not in v:
+                #     q.append(nnode.node_from)
     return
 
 

@@ -33,7 +33,8 @@ class Graph(object):
             self.nodes.append(to_node)
         edge = Edge(value,from_node,to_node)
         from_node.edges.append(edge)
-        to_node.edges.append(edge)
+        ############ comment next line for directional graph ##############
+        #to_node.edges.append(edge)
         self.edges.append(edge)
 
     def adjacency_list(self):
@@ -42,7 +43,6 @@ class Graph(object):
             for e in n.edges:
                 if e.node_from == n:
                     print(e.node_to.value, end=' ')
-                ############ comment these next two lines for directional graph ##############
                 if e.node_to == n:
                     print(e.node_from.value, end=' ')
             print()
@@ -56,10 +56,10 @@ class Graph(object):
 # graph.insert_edge(105, 'C', 'F')
 # graph.insert_edge(104, 'F', 'E')
 # lis = enumerate(graph.nodes, 1)
-# new = sorted(graph.edges, key= lambda x:x.value,reverse=False)
-# for i in new:
-#     print(i.value)
-#graph.adjacency_list()
+# # new = sorted(graph.edges, key= lambda x:x.value,reverse=False)
+# # for i in new:
+# #     print(i.value)
+# graph.adjacency_list()
 
 
 
