@@ -6,4 +6,4 @@ def reverse(s):
     final = ' '.join(list_words)
     print(final)
 
-reverse('i love programming a lot')
+reverse('this is a sample text')
