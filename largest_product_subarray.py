@@ -6,11 +6,11 @@ def product(arr):
     pre_min = arr[0]
     ans = arr[0]
     for i in range(1,size):
-        pre_max = maxm
-        pre_min = minm
         maxm = max(pre_max*arr[i],pre_min*arr[i],arr[i])
         minm = min(pre_max*arr[i],pre_min*arr[i],arr[i])
         ans = max(ans,maxm)
+        pre_max = maxm
+        pre_min = minm
     print(ans)
 
 arr = [-1,6,2,0,7,9]
