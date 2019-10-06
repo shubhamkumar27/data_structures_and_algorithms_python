@@ -1,3 +1,4 @@
+# We have used kadane's algorithm here
 def test(lis):
     max_end = 0
     max_sum = 0
