@@ -27,9 +27,23 @@ class Linkedlist():
             cur = cur.next
         print()
 
+    def reverse(self):
+        if self.head == None or self.head.next == None:
+            return
+        head = self.head
+        tail = None
+        while(head):
+            t = head.next
+            head.next = tail
+            tail = head
+            head = t
+        self.head = tail
+
 def addition(l1,l2):
     if not l1 : return l2
     if not l2 : return l1
+    l1.reverse()
+    l2.reverse()
     temp1 = l1.head
     temp2 = l2.head
     s = Linkedlist()
@@ -38,14 +52,17 @@ def addition(l1,l2):
     while temp1 or temp2 or carry != 0 :
         d1 = temp1.data if temp1 else 0
         d2 = temp2.data if temp2 else 0
-        print(i)
+        #print(i,end='->')
         summ = d1 + d2 + carry
         sdata = (summ)%10
         carry = (summ)//10
+        #print(sdata)
         s.insert(sdata)
-        temp1 = temp1.next
-        temp2 = temp2.next
-    s.traverse
+        if temp1 : temp1 = temp1.next
+        if temp2 : temp2 = temp2.next
+        i+=1
+    s.reverse()
+    s.traverse()
 
 l1 = Linkedlist()
 l1.insert(5)
