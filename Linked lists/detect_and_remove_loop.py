@@ -53,7 +53,7 @@ def rem_cycle(p1,l):
         p2 = p2.next
     p2.next = None
 
-    ####### CHECK FOR LOOP AGAIN ###########3
+    ####### CHECK FOR LOOP AGAIN #######
     detect_cycle(l)
 
 
