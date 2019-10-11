@@ -26,7 +26,8 @@ class Linkedlist():
             print(cur.data,end=' ')
             cur = cur.next
         print()
-########### DETECTING CYCLE AND REMOVING #############
+
+####################### DETECTING CYCLE ############################
 def detect_cycle(l):
     if l.head == None:
         print('NO CYCLE DETECTED')
@@ -43,6 +44,7 @@ def detect_cycle(l):
             return
     print('NO CYCLE DETECTED')
 
+######################## REMOVE CYCLE #################################
 def rem_cycle(p1,l):
     p2 = l.head
     #print(p2.data)
@@ -52,10 +54,10 @@ def rem_cycle(p1,l):
         #print(p1.data,p2.data)
     print('First element of loop is : ',p1.data)
     while(p2.next != p1):
-        print(p2.data)
         p2 = p2.next
-    print(p2.data)
     p2.next = None
+
+    ####### CHECK FOR LOOP AGAIN ###########3
     detect_cycle(l)
 
 
