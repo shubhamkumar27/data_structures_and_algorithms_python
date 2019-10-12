@@ -29,10 +29,16 @@ class Linkedlist():
 
 def duplicates(lis):
     hashtable = dict()
-    temp = lis.head
+    pre = lis.head
+    hashtable[str(pre.data)]=True
+    print(hashtable)
+    temp = lis.head.next
     while(temp):
-        if hashtable[str(temp.data)==True]:
-            pass
+        try:
+            if hashtable[str(temp.data)]:
+                pre.next = temp.next
+        except:
+            hashtable[str(temp.dat)]=True
     print(hashtable)
 
 lis = Linkedlist()
