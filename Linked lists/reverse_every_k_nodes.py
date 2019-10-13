@@ -37,22 +37,21 @@ def traverse(cur):
         cur = cur.next
     print()
 
-def reverse_k(lis,k):
+def reverse_k(head,k):
     if lis.head==None:
         return
-    head = lis.head
-    res = None
+    cur = head
+    pre = None
     i=0
-    while(head and i<k):
-        print(i)
-        temp = head.next
-        head.next = res
-        res = head
-        head = temp
+    while(cur and i<k):
+        temp = cur.next
+        cur.next = pre
+        pre = cur
+        cur = temp
         i+=1
-        # if(i==k):
-        #     i=0
-    traverse(res)
+    if cur:
+        head.next = reverse_k(cur,k)
+    return pre
 
 lis = Linkedlist()
 lis.insert_end(1)
@@ -65,4 +64,5 @@ lis.insert_end(7)
 lis.insert_end(8)
 lis.insert_end(9)
 traverse(lis.head)
-reverse_k(lis,3)
+head = reverse_k(lis.head,3)
+traverse(head)
