@@ -16,16 +16,6 @@ class Linkedlist():
             while(cur.next):
                 cur = cur.next
             cur.next = node
-    
-    def traverse(self):
-        if self.head == None:
-            return None
-        cur = self.head
-        print('Elements are :', end=' ')
-        while(cur):
-            print(cur.data,end=' ')
-            cur = cur.next
-        print()
 
     def length(self):
         if self.head == None:
@@ -37,16 +27,33 @@ class Linkedlist():
             cur = cur.next
         return i
 
+def traverse(cur):
+    # if self.head == None:
+    #     return None
+    # cur = self.head
+    print('Elements are :', end=' ')
+    while(cur):
+        print(cur.data,end=' ')
+        cur = cur.next
+    print()
+
 def reverse_k(lis,k):
     if lis.head==None:
         return
-    if lis.length()<k:
-        return
-    temp = lis.head
+    head = lis.head
+    res = None
     i=0
-    while(temp):
-        
-    
+    while(head and i<k):
+        print(i)
+        temp = head.next
+        head.next = res
+        res = head
+        head = temp
+        i+=1
+        # if(i==k):
+        #     i=0
+    traverse(res)
+
 lis = Linkedlist()
 lis.insert_end(1)
 lis.insert_end(2)
@@ -57,4 +64,5 @@ lis.insert_end(6)
 lis.insert_end(7)
 lis.insert_end(8)
 lis.insert_end(9)
+traverse(lis.head)
 reverse_k(lis,3)
