@@ -23,6 +23,7 @@ class Solution(object):
         :type s: str
         :rtype: int
         """
+        
         maxm = 0
         l=0
         hashtable = [0]*256
