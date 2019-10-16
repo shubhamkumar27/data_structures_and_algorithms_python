@@ -43,12 +43,21 @@
 # n = len(string) 
 # a = list(string) 
 # permute(a, 0, n-1) 
-v = input().split(' ')
-given = int(v[0])
-k = int(v[1])
-for i in range(k):
-    if given%10==0:
-        given=given//10
-    else:
-        given=given-1
-print(given)
+# v = input().split(' ')
+# given = int(v[0])
+# k = int(v[1])
+# for i in range(k):
+#     if given%10==0:
+#         given=given//10
+#     else:
+#         given=given-1
+# print(given)
+def check(persons,opinions):
+    for i in range(persons):
+        if int(opinions[i]) == 1:
+            return 'HARD'
+            break
+    return 'EASY'
+persons = int(input())
+opinions = input().split(' ')
+print(check(persons,opinions))
