@@ -52,11 +52,23 @@
 #     else:
 #         given=given-1
 # print(given)
-def check(persons,opinions):
-    for i in range(persons):
-        if int(opinions[i]) == 1:
-            return 'HARD'
-    return 'EASY'
-persons = int(input())
-opinions = input().split(' ')
-print(check(persons,opinions))
+# def check(persons,opinions):
+#     for i in range(persons):
+#         if int(opinions[i]) == 1:
+#             return 'HARD'
+#     return 'EASY'
+# persons = int(input())
+# opinions = input().split(' ')
+# print(check(persons,opinions))
+def convert(self, s, numRows):
+    """
+    :type s: str
+    :type numRows: int
+    :rtype: str
+    """
+    i=0
+    l=len(s)
+    for k in range(numrows):
+        while(i<s):
+            print(s[i],end='')
+            i=i+2*numrows-2
