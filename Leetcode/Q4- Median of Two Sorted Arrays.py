@@ -13,3 +13,23 @@ nums1 = [1, 2]
 nums2 = [3, 4]
 The median is (2 + 3)/2 = 2.5
 '''
+
+class Solution(object):
+    def findMedianSortedArrays(self, num1, num2):
+        """
+        :type nums1: List[int]
+        :type nums2: List[int]
+        :rtype: float
+        """
+        num3 = sorted(num1+num2)
+        l = len(num3)
+        if l==1:
+            return num3[0]
+        if l%2==0:
+            h = l//2
+            s = h-1
+            median = float(num3[s]+num3[h])/2
+        else:
+            m = l//2
+            median = num3[m]
+        return median
