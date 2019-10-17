@@ -60,15 +60,18 @@
 # persons = int(input())
 # opinions = input().split(' ')
 # print(check(persons,opinions))
-def convert(self, s, numRows):
-    """
-    :type s: str
-    :type numRows: int
-    :rtype: str
-    """
-    i=0
-    l=len(s)
-    for k in range(numrows):
-        while(i<s):
-            print(s[i],end='')
-            i=i+2*numrows-2
+# def convert(self, s, numRows):
+#     """
+#     :type s: str
+#     :type numRows: int
+#     :rtype: str
+#     """
+#     i=0
+#     l=len(s)
+#     for k in range(numrows):
+#         while(i<s):
+#             print(s[i],end='')
+#             i=i+2*numrows-2
+x = -134567
+sign = [1,-1][x < 0]
+print(abs(x))
