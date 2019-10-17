@@ -17,24 +17,29 @@ Output: 3
 Explanation: The answer is "wke", with the length of 3. 
              Note that the answer must be a substring, "pwke" is a subsequence and not a substring.
 '''
+
 class Solution(object):
     def lengthOfLongestSubstring(self, s):
         """
         :type s: str
         :rtype: int
         """
-        
-        maxm = 0
-        l=0
-        hashtable = [0]*256
-        for i in range(len(s)):
-            has = ord(s[i])
-            if hashtable[has] != 1:
-                l+=1
-                hashtable[has] = 1
+        if(len(s)<1):
+            return 0
+        max_len = 1
+        cur_len = 1
+        hashtable = [-1]*256
+        hashtable[ord(s[0])]=0
+        for i in range(1,len(s)):
+            pos = hashtable[ord(s[i])]
+            if pos == -1 or i-cur_len>pos:
+                cur_len += 1
+                hashtable[ord(s[i])] = i
             else:
-                l=0
-                hashtable[has] = 0
-            if l>maxm:
-                maxm=l
-        return maxm
+                if cur_len>max_len:
+                    max_len = cur_len
+                cur_len = i-pos
+            hashtable[ord(s[i])] = i
+        if cur_len>max_len:
+                    max_len = cur_len
+        return max_len

@@ -56,7 +56,6 @@ def check(persons,opinions):
     for i in range(persons):
         if int(opinions[i]) == 1:
             return 'HARD'
-            break
     return 'EASY'
 persons = int(input())
 opinions = input().split(' ')
