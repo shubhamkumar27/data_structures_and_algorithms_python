@@ -1,5 +1,5 @@
 def check(string):
-    maxl = 0
+    maxl = 1
     start = 0
     n = len(string)
     mat = [[0 for i in range(n)] for j in range(n)]
@@ -10,6 +10,7 @@ def check(string):
     for i in range(n-1):
         if string[i]==string[i+1]:
             mat[i][i+1]=1
+            start=i
             maxl=2
     
     # for string of length >2
@@ -26,5 +27,4 @@ def check(string):
     print(start,'and',maxl)
     print(string[start:start+maxl])
 
-
-check('forgeeksfofskeegfor')
+check('cbbd')
