@@ -37,6 +37,7 @@ def traverse(cur):
         cur = cur.next
     print()
 
+############## RECURSIVE SOLUTION ################
 def reverse_k(head,k):
     if lis.head==None:
         return
@@ -53,6 +54,32 @@ def reverse_k(head,k):
         head.next = reverse_k(cur,k)
     return pre
 
+############# ITERATIVE SOLUTION ##################
+def rev_k_iter(head,k):
+    jump = Node(0)
+    dummy = jump
+    l = head
+    r = l
+    #dummy.next = r
+    while True:
+        count = 0
+        while count<k and r:
+            r = r.next
+            count += 1
+        if count==k:
+            pre , cur = r, l
+            for _ in range(k):
+                temp = cur.next
+                cur.next = pre
+                pre = cur
+                cur = temp
+            jump.next = pre
+            jump = l
+            l=r
+        else:
+            return dummy.next
+
+
 lis = Linkedlist()
 lis.insert_end(1)
 lis.insert_end(2)
@@ -64,5 +91,5 @@ lis.insert_end(7)
 lis.insert_end(8)
 lis.insert_end(9)
 traverse(lis.head)
-head = reverse_k(lis.head,3)
+head = rev_k_iter(lis.head,3)
 traverse(head)
